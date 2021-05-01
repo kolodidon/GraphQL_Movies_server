@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 
 const app = express();
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 
 mongoose.connect(`mongodb+srv://User-1:lhbvvb572@cluster0.lvpar.mongodb.net/GraphQL_Films_App_DB?retryWrites=true&w=majority`, { useNewUrlParser: true, useUnifiedTopology: true })
 
